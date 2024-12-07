@@ -1,0 +1,23 @@
+{
+    "magic": 25,
+    "defence": 25,
+    "level": 35,
+    "description": "A practicer of dark arts.",
+    "areas": [],
+    "poisonous": false,
+    "weakness": "Arrow",
+    "size": 1,
+    "ranged": 1,
+    "attack": 1,
+    "members": false,
+    "animations": {
+        "death": 836,
+        "attack": 422
+    },
+    "name": "Dark wizard",
+    "xp": "51.9",
+    "lifepoints": 2000,
+    "id": 172,
+    "aggressive": false,
+    "attackable": true
+}

@@ -1,0 +1,26 @@
+{
+    "magic": 1,
+    "slayercat": "Goblins",
+    "defence": 2,
+    "level": 2,
+    "description": "An ugly green creature.",
+    "areas": [
+        "RuneScape Surface"
+    ],
+    "poisonous": false,
+    "weakness": "Air",
+    "size": 1,
+    "ranged": 1,
+    "attack": 2,
+    "members": false,
+    "animations": {
+        "death": 6182,
+        "attack": 6184
+    },
+    "name": "Goblin",
+    "xp": "74.7",
+    "lifepoints": 550,
+    "id": 4261,
+    "aggressive": true,
+    "attackable": true
+}

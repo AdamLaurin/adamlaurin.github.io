@@ -1,0 +1,27 @@
+{
+    "magic": 1,
+    "slayercat": "Elves",
+    "defence": 64,
+    "level": 89,
+    "description": "He looks pretty handy with that bow.",
+    "areas": [
+        "RuneScape Surface"
+    ],
+    "poisonous": false,
+    "weakness": "Crushing",
+    "size": 1,
+    "ranged": 64,
+    "attack": 1,
+    "members": false,
+    "animations": {
+        "death": 836,
+        "attack": 18224,
+        "range": 18237
+    },
+    "name": "Elf warrior",
+    "xp": "312.3",
+    "lifepoints": 3200,
+    "id": 1183,
+    "aggressive": false,
+    "attackable": true
+}

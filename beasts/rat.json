@@ -1,0 +1,31 @@
+{
+    "magic": 1,
+    "slayercat": "Rats",
+    "defence": 5,
+    "level": 7,
+    "description": "Overgrown vermin.",
+    "areas": [
+        "RuneScape Surface",
+        "Misthalin Underground",
+        "Shadow Dungeon",
+        "Morytania underground",
+        "Grand Tree mine",
+        "Ardougne underground"
+    ],
+    "poisonous": false,
+    "weakness": "Earth",
+    "size": 2,
+    "ranged": 1,
+    "attack": 5,
+    "members": false,
+    "animations": {
+        "death": 33929,
+        "attack": 33928
+    },
+    "name": "Giant rat",
+    "xp": "77.4",
+    "lifepoints": 1450,
+    "id": 86,
+    "aggressive": false,
+    "attackable": true
+}

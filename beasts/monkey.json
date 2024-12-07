@@ -1,0 +1,25 @@
+{
+    "magic": 0,
+    "slayercat": "Monkeys",
+    "defence": 58,
+    "level": 81,
+    "description": "A bow wielding ninja monkey.",
+    "areas": [
+        "RuneScape Surface"
+    ],
+    "poisonous": false,
+    "weakness": "Slashing",
+    "size": 1,
+    "ranged": 58,
+    "attack": 43,
+    "members": false,
+    "animations": {
+        "range": 1394
+    },
+    "name": "Monkey Archer",
+    "xp": "233.1",
+    "lifepoints": 2900,
+    "id": 1456,
+    "aggressive": true,
+    "attackable": true
+}

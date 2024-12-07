@@ -1,0 +1,25 @@
+{
+    "magic": 1,
+    "defence": 8,
+    "level": 11,
+    "description": "He holds up passers by.",
+    "areas": [
+        "RuneScape Surface"
+    ],
+    "poisonous": false,
+    "weakness": "Water",
+    "size": 1,
+    "ranged": 1,
+    "attack": 8,
+    "members": false,
+    "animations": {
+        "death": 836,
+        "attack": 386
+    },
+    "name": "Highwayman",
+    "xp": "28.2",
+    "lifepoints": 400,
+    "id": 180,
+    "aggressive": false,
+    "attackable": true
+}

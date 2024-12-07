@@ -1,0 +1,28 @@
+{
+    "magic": 45,
+    "slayercat": "Green dragons",
+    "defence": 45,
+    "level": 63,
+    "description": "Roar! A dragon!",
+    "areas": [
+        "Elvarg's lair"
+    ],
+    "poisonous": false,
+    "weakness": "None",
+    "size": 4,
+    "ranged": 45,
+    "slayerlevel": 0,
+    "attack": 45,
+    "members": false,
+    "animations": {
+        "death": 14260,
+        "attack": 14258,
+        "range": 4972
+    },
+    "name": "Elvarg",
+    "xp": "628.5",
+    "lifepoints": 21000,
+    "id": 742,
+    "aggressive": true,
+    "attackable": true
+}

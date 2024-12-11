@@ -13,7 +13,7 @@
         "Ardougne underground"
     ],
     "poisonous": false,
-    "weakness": "Earth",
+    "weakness": "magic",
     "size": 2,
     "ranged": 1,
     "attack": 5,
@@ -27,5 +27,6 @@
     "lifepoints": 1450,
     "id": 86,
     "aggressive": false,
-    "attackable": true
+    "attackable": true,
+    "attack_type": "attack"
 }

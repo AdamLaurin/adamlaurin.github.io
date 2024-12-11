@@ -8,7 +8,7 @@
         "RuneScape Surface"
     ],
     "poisonous": false,
-    "weakness": "Air",
+    "weakness": "magic",
     "size": 1,
     "ranged": 1,
     "attack": 2,
@@ -22,5 +22,6 @@
     "lifepoints": 550,
     "id": 4261,
     "aggressive": true,
-    "attackable": true
+    "attackable": true,
+    "attack_type": "attack"
 }

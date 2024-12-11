@@ -8,7 +8,7 @@
         "RuneScape Surface"
     ],
     "poisonous": false,
-    "weakness": "Crushing",
+    "weakness": "attack",
     "size": 1,
     "ranged": 64,
     "attack": 1,
@@ -23,5 +23,6 @@
     "lifepoints": 3200,
     "id": 1183,
     "aggressive": false,
-    "attackable": true
+    "attackable": true,
+    "attack_type": "ranged"
 }

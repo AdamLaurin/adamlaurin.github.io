@@ -8,7 +8,7 @@
         "Elvarg's lair"
     ],
     "poisonous": false,
-    "weakness": "None",
+    "weakness": "none",
     "size": 4,
     "ranged": 45,
     "slayerlevel": 0,
@@ -24,5 +24,6 @@
     "lifepoints": 21000,
     "id": 742,
     "aggressive": true,
-    "attackable": true
+    "attackable": true,
+    "attack_type": "magic"
 }

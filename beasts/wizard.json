@@ -5,7 +5,7 @@
     "description": "A practicer of dark arts.",
     "areas": [],
     "poisonous": false,
-    "weakness": "Arrow",
+    "weakness": "ranged",
     "size": 1,
     "ranged": 1,
     "attack": 1,
@@ -19,5 +19,6 @@
     "lifepoints": 2000,
     "id": 172,
     "aggressive": false,
-    "attackable": true
+    "attackable": true,
+    "attack_type": "magic"
 }

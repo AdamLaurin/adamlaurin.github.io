@@ -6,7 +6,7 @@
     "description": "This is going to hurt...",
     "areas": [],
     "poisonous": false,
-    "weakness": "None",
+    "weakness": "none",
     "size": 5,
     "ranged": 70,
     "attack": 70,
@@ -20,5 +20,6 @@
     "lifepoints": 40000,
     "id": 2745,
     "aggressive": true,
-    "attackable": true
+    "attackable": true,
+    "attack_type": "attack"
 }

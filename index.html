@@ -1,132 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-    <link rel="icon" href="./assets/images/1311.png" />
-		<title>Adam Laurin Portfolio</title>
-    <meta name="description" content="Adam Laurin's software developper portfoio.">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<link rel="stylesheet" href="./css/layout.css">
-    <link rel="stylesheet" href="./css/typography.css">
-    <link rel="stylesheet" href="./css/utilities.css">
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="./assets/images/1311.png" />
+  <title>Adam Laurin Portfolio</title>
+  <meta name="description" content="Adam Laurin's software developper portfoio.">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<script defer src="./js/script.js"></script>
-	</head>
-	<body>
-    <!-- NAVBAR -->
-    <div class="navbar">
-      <a class="nav-title-link" href="./index.html">
-        <span class="nav-title">Adam Laurin, Software Developer</span>
-      </a>
-    </div>
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/typography.css">
+  <link rel="stylesheet" href="./css/utilities.css">
 
-    <!-- MAIN PAGE CONTENT -->
-    <div id="main-content">
+  <script defer src="./js/script.js"></script>
+</head>
 
-      <!-- PORTFOLIO HEADER -->
-      <div id="portfolio-header">
-        <div id="portfolio-header-image-container">
-          <!-- 
+<body>
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <a class="nav-title-link" href="./index.html">
+      <span class="nav-title">Adam Laurin, Software Developer</span>
+    </a>
+  </div>
+
+  <!-- MAIN PAGE CONTENT -->
+  <div id="main-content">
+
+    <!-- PORTFOLIO HEADER -->
+    <div id="portfolio-header">
+      <div id="portfolio-header-image-container">
+        <!-- 
             TODO
 
             - Change the img "src" attribute to point to the Unemployable image you uploaded (or whatever image).
             - Change the number to point to your Unemployable & replace the OpenSea link with your own
             - If you aren't using an Unemployable as your image, remove the entire "a" element
           -->
-          <!-- <img src="./assets/images/1311.png" class="portfolio-header-image">
+        <!-- <img src="./assets/images/1311.png" class="portfolio-header-image">
           <a class="no-underline" target="_blank" href="https://opensea.io/assets/0xe0be388ab81c47b0f098d2030a1c9ef190691a8a/1311">
             <span class="image-caption">Unemployables #1311</span>
           </a> -->
-        </div>
-
-          <!-- 
-            TODO
-
-            - Change the main-title to whatver you want
-            - Change the body-text after that to a quick introduction to what you do
-            - Edit the button text if you feel like it. It will link to the projects section below.
-          -->
-        <div id="portfolio-header-text-container">
-            <div class="header-text">
-              <span class="main-title">Hi, I'm Adam.</span>
-              <div class="body-text">I'm a software developer with a background in the humanities.</div>
-            </div>
-            <a class="button" id="my-work-link">
-              <span class="button-text">Check out my projects</span> 
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-        </div>
       </div>
-
-      <!-- ABOUT SECTION -->
-      <div id="about-section">
-        <span class="subheader-text">About Me</span>
-        <div class="about-section-content">
-          <div class="body-text">Beginning my studies in history, I received a Master of Arts degree in Medieval Studies from the University of Toronto in 2022. Afterwards, my interests in math and logic led me to pivot towards computer science with the goal of marrying my experience in the humanities with creative software development</div>
-          <div class="body-text">My technical skills include:
-            <ul>
-              <li>JavaScript and TypeScript</li>
-              <li>Full MERN stack web development</li>
-              <li>Kotlin and Jetpack Compose for Android Apps</li>
-              <li>C# and WPF</li>
-              <li>Python</li>
-              <li>Powershell and Bash</li>
-              <li>SQL databases</li>
-              <li>Tools such as Jira, Azure DevOps, and GitHub</li>
-            </ul>
-          </div>
+      <div id="portfolio-header-text-container">
+        <div class="header-text">
+          <span class="main-title">Hi, I'm Adam.</span>
+          <div class="body-text">I'm a software developer with a background in the humanities.</div>
         </div>
+        <a class="button" id="my-work-link">
+          <span class="button-text">Check out my projects</span>
+          <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+        </a>
       </div>
+    </div>
 
-      <!-- PROJECTS -->
-      <div id="my-work-section">
-        <span class="subheader-text">My Projects</span>
-
-        <div class="projects-container">
-          <div class="project-card">
-            <img src="./assets/images/mazeGame.png" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Maze Game</div>
-              <div class="body-text project-card-text">This was my first independent project as a programmer. It's rough and rugged, but gives an idea of where I started and how I've progressed throughout my experience and education as a developer.</div>
-            </div>
-            <a class="button" href="https://github.com/AdamLaurin/MazeGame">
-              <span class="button-text">See GitHub Repo</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-          </div>
-          <div class="project-card">
-            <img src="./assets/images/HistoriapediaBackendCode.png" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Historiapedia Web App</div>
-              <div class="body-text project-card-text">This web app, made as part of a team project for a web programming course, demonstrates my ability to work as a full MERN stack developer. My team and I created a wikipedia-like website from scratch for history related articles.</div>
-            </div>
-            <a class="button" href="https://github.com/AdamLaurin/Historiapedia">
-              <span class="button-text">See GitHub Repo</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-          </div>
-          <div class="project-card">
-            <img src="./assets/images/sketchbook.jpeg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Super Long Project Name That Should be Hidden</div>
-              <div class="body-text project-card-text">Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium</div>
-            </div>
-            <a class="button" href="">
-              <span class="button-text">See GitHub Repo</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-          </div>
+    <!-- ABOUT SECTION -->
+    <div id="about-section">
+      <span class="subheader-text">About Me</span>
+      <div class="about-section-content">
+        <div class="body-text">Beginning my studies in history, I received a Master of Arts degree in Medieval Studies
+          from the University of Toronto in 2022. Afterwards, my interests in math and logic led me to pivot towards
+          computer science with the goal of marrying my experience in the humanities with creative software development
+        </div>
+        <div class="body-text">My technical skills include:
+          <ul>
+            <li>C# and WPF</li>
+            <li>Python</li>
+            <li>JavaScript and TypeScript</li>
+            <li>Full MERN stack web development</li>
+            <li>Kotlin and Jetpack Compose for Android Apps</li>
+            <li>Powershell and Bash</li>
+            <li>SQL databases</li>
+            <li>Tools such as Jira, Azure DevOps, and GitHub</li>
+          </ul>
         </div>
       </div>
     </div>
 
-    <!-- FOOTER -->
-    <div id="footer">
-      <a class="icon-link" href="mailto:awlaurin@gmail.com">
-        <image src="./assets/icons/mail.svg" class="footer-icon"/>
-      </a>
-    </div>
+    <!-- PROJECTS -->
+    <div id="my-work-section">
+      <span class="subheader-text">My Projects</span>
 
-	</body>
+      <div class="projects-container">
+        <div class="project-card">
+          <img src="./assets/images/mazeGame.png" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">Maze Game</div>
+            <div class="body-text project-card-text">This was my first independent project as a programmer. It's rough
+              and rugged, but gives an idea of where I started and how I've progressed throughout my experience and
+              education as a developer.</div>
+          </div>
+          <a class="button" href="https://github.com/AdamLaurin/MazeGame">
+            <span class="button-text">See GitHub Repo</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+          </a>
+        </div>
+        <div class="project-card">
+          <img src="./assets/images/HistoriapediaBackendCode.png" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">Historiapedia Web App</div>
+            <div class="body-text project-card-text">This web app, made as part of a team project for a web programming
+              course, demonstrates my ability to work as a full MERN stack developer. My team and I created a
+              wikipedia-like website from scratch for history related articles.</div>
+          </div>
+          <a class="button" href="https://github.com/AdamLaurin/Historiapedia">
+            <span class="button-text">See GitHub Repo</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+          </a>
+        </div>
+        <div class="project-card">
+          <img src="./assets/images/DedosDeToledo.PNG" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">Dedos de Toledo</div>
+            <div class="body-text project-card-text">This game is a recreation of several real, historical dice games
+              mentioned in the 13th century <i>Book of Games</i> by Alfonso X of Castile. Thus far I have recreated 3 of
+              the games mentioned: Triga, Panquist, and Riffa. This was my first real project getting to use programming
+              to get a deeper look at lived history. Plus, it's actually quite fun!
+            </div>
+          </div>
+          <a class="button" href="https://github.com/AdamLaurin/DedosDeToledo">
+            <span class="button-text">See GitHub Repo</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div id="footer">
+    <a class="icon-link" href="mailto:awlaurin@gmail.com">
+      <image src="./assets/icons/mail.svg" class="footer-icon" />
+    </a>
+  </div>
+
+</body>
+
 </html>

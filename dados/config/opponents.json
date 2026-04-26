@@ -1,0 +1,37 @@
+{
+    "opponents": [
+        {
+            "name": "Rodrigo",
+            "fullName": "Rodrigo the Trovador",
+            "portraitDefinition": {
+                "x": 0,
+                "y": 0
+            },
+            "greetings": [
+                "PLACEHOLDER"
+            ]
+        },
+        {
+            "name": "Fernando",
+            "fullName": "Fernando de Merida",
+            "portraitDefinition": {
+                "x": 0,
+                "y": 360
+            },
+            "greetings": [
+                "PLACEHOLDER"
+            ]
+        },
+        {
+            "name": "Diago",
+            "fullName": "Padre Diago",
+            "portraitDefinition": {
+                "x": 0,
+                "y": 719
+            },
+            "greetings": [
+                "PLACEHOLDER"
+            ]
+        }
+    ]
+}

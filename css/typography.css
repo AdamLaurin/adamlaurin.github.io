@@ -14,7 +14,8 @@ body {
 
 .image-caption {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: bold;
+  color: rgb(97, 97, 97);
 }
 
 .main-title {

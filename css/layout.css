@@ -77,6 +77,12 @@ body {
   gap: 34px;
 }
 
+#education-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
 
 
 

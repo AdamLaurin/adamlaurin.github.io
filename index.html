@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Adam Laurin Portfolio</title>
-	<meta name="description" content="Adam Laurin's software developper portfoio.">
+	<meta name="description" content="Adam Laurin's project portfolio.">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<link rel="stylesheet" href="./css/layout.css">
@@ -18,7 +18,13 @@
 	<!-- NAVBAR -->
 	<div class="navbar">
 		<a class="nav-title-link" href="./index.html">
-			<span class="nav-title">Adam Laurin, Software Developer</span>
+			<span class="nav-title">A Bit About Me</span>
+		</a>
+		<a class="nav-title-link" href="./history.html">
+			<span class="nav-title">History and the Humanities</span>
+		</a>
+		<a class="nav-title-link" href="./software.html">
+			<span class="nav-title">Software and Game Development</span>
 		</a>
 	</div>
 
@@ -32,11 +38,28 @@
 			</div>
 			<div id="portfolio-header-text-container">
 				<div class="header-text">
-					<span class="main-title">Hi, I'm Adam.</span>
-					<div class="body-text">I'm a software developer with a background in the humanities.</div>
+					<span class="main-title">Hello, I'm Adam.</span>
+					<div class="about-section-content">
+						<div class="body-text">
+							I'm a software developer and online educator.<br>
+							Beginning my studies in history, I received a Master of Arts degree in
+							Medieval
+							Studies
+							from the University of Toronto in 2022. Afterwards, my interests in math and logic led me to
+							pivot
+							towards
+							computer science with the goal of marrying my experience in the humanities with creative
+							software
+							development.
+						</div>
+					</div>
 				</div>
-				<a class="button" id="my-work-link">
-					<span class="button-text">Check out my projects</span>
+				<a class="button" href="history.html">
+					<span class="button-text">See More: History and Humanities</span>
+					<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+				</a>
+				<a class="button" href="software.html">
+					<span class="button-text">See More: Software and Game Development</span>
 					<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
 				</a>
 			</div>
@@ -44,32 +67,19 @@
 
 		<!-- ABOUT SECTION -->
 		<div id="about-section">
-			<span class="subheader-text">About Me</span>
+			<span class="subheader-text">My Education</span>
 			<div class="about-section-content">
-				<div class="body-text">Beginning my studies in history, I received a Master of Arts degree in Medieval
-					Studies
-					from the University of Toronto in 2022. Afterwards, my interests in math and logic led me to pivot
-					towards
-					computer science with the goal of marrying my experience in the humanities with creative software
-					development
-				</div>
-				<div class="body-text">My technical skills include:
-					<ul>
-						<li>C# and WPF</li>
-						<li>Python</li>
-						<li>JavaScript and TypeScript</li>
-						<li>Full MERN stack web development</li>
-						<li>Kotlin and Jetpack Compose for Android Apps</li>
-						<li>Powershell and Bash</li>
-						<li>SQL databases</li>
-						<li>Tools such as Jira, Azure DevOps, and GitHub</li>
-					</ul>
-				</div>
+				<ul id="education-list">
+					<li><b>DEC Computer Science,</b> John Abbott College - 2026</li>
+					<li><b>MA Medieval Studies,</b> University of Toronto - 2022</li>
+					<li><b>BA History,</b> McGill University - 2020</li>
+					<li><b>DEC Liberal Arts,</b> John Abbott College - 2017</li>
+				</ul>
 			</div>
 		</div>
 
 		<!-- PROJECTS -->
-		<div id="my-work-section">
+		<!-- <div id="my-work-section">
 			<span class="subheader-text">My Projects</span>
 
 			<div class="projects-container">
@@ -126,7 +136,7 @@
 					</a>
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</div>
 
 	<!-- FOOTER -->

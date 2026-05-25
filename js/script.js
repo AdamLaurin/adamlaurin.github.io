@@ -1,5 +1,5 @@
-if (document.getElementById('my-work-link')) {
-  document.getElementById('my-work-link').addEventListener('click', () => {
-    document.getElementById('my-work-section').scrollIntoView({behavior: "smooth"})
-  })
-}
+// if (document.getElementById('nav-to-history')) {
+//   document.getElementById('my-work-link').addEventListener('click', () => {
+//     window.location.href = "history.html";
+//   })
+// }

@@ -27,7 +27,7 @@ body {
   margin: 225px 425px;
   display: flex;
   flex-direction: column;
-  gap: 96px;
+  gap: 50px;
 }
 
 
@@ -84,6 +84,11 @@ body {
   row-gap: 20px;
 }
 
+#skill-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
 
 
 /* Project Section */
@@ -100,8 +105,8 @@ body {
 }
 
 .project-image-container img {
-  width: 200px;
-  height: auto;
+  height: 200px;
+  width: auto;
 }
 
 .centered-content {
